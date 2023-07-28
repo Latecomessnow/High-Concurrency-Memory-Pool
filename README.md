@@ -1,2 +1,2 @@
-# Design-and-Implementation-of-High-Concurrency-Memory-Pool
-This is a very simplified version of the high-concurrency memory pool designed based on the core framework of Google's Thread-Caching Malloc. After testing, its efficiency is still very good compared to malloc and free, especially in the case of multi-threading.
+# 项目简介
+项目的整体框架是由三层缓存构成的，线程缓存，中心缓存和页缓存。整个项目的流程是这样的，申请内存的时候，先去线程缓存去要，线程缓存没有的话，再去中心缓存去要，中心缓存再没有的话，就去页缓存去要，而页缓存会预先向操作系统申请过量的内存资源; 释放内存的时候也是类似，先把内存还给线程缓存，中心缓存会在合适的时候去回收线程缓存中的内存，页缓存也会在合适的时候去回收中心缓存的内存。
