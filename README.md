@@ -5,10 +5,10 @@
   ![image](https://github.com/Latecomessnow/High-Concurrency-Memory-Pool/assets/101911487/2e682377-922c-44e8-b2dc-7fd0d42d898e)
 
 ## 2. 线程缓存结构
-  ![image](https://github.com/Latecomessnow/High-Concurrency-Memory-Pool/assets/101911487/95945c45-e2c2-4086-96b7-e959ac8e8ab3)
+  ![image](https://github.com/Latecomessnow/High-Concurrency-Memory-Pool/assets/101911487/09b5eb08-706c-4d07-ba12-cb071b82557f)
 
 ## 3. 中心缓存结构
   ![image](https://github.com/Latecomessnow/High-Concurrency-Memory-Pool/assets/101911487/65e15d70-d4f5-4a7a-9abb-3dbb7590921c)
 
 ## 4. 页缓存结构
-  ![image](https://github.com/Latecomessnow/High-Concurrency-Memory-Pool/assets/101911487/568b9d9e-1ae9-4aef-91e3-33e55b1b8464)
+  ![image](https://github.com/Latecomessnow/High-Concurrency-Memory-Pool/assets/101911487/3b2dd611-1995-4efc-9690-e8257e750b0a)
